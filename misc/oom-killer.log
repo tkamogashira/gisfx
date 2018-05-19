@@ -1,0 +1,646 @@
+sr 0:0:6:0: Attached scsi CD-ROM sr0
+sd 0:0:0:0: Attached scsi generic sg0 type 7
+sd 0:0:1:0: Attached scsi generic sg1 type 0
+sr 0:0:6:0: Attached scsi generic sg2 type 5
+PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+serio: i8042 AUX port at 0x60,0x64 irq 12
+serio: i8042 KBD port at 0x60,0x64 irq 1
+mice: PS/2 mouse device common for all mice
+TCP bic registered
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+Using IPI No-Shortcut mode
+ACPI wakeup devices: 
+PCI0 UAR1 UAR2 PS2K PS2M USB0 
+ACPI: (supports S0 S1 S4 S5)
+ReiserFS: sdb1: found reiserfs format "3.6" with standard journal
+input: AT Translated Set 2 keyboard as /class/input/input0
+input: ImPS/2 Generic Wheel Mouse as /class/input/input1
+ReiserFS: sdb1: using ordered data mode
+ReiserFS: sdb1: journal params: device sdb1, size 8192, journal first block 18, max trans len 1024, max batch 900, max commit age 30, max trans age 30
+ReiserFS: sdb1: checking transaction log (sdb1)
+ReiserFS: sdb1: replayed 300 transactions in 15 seconds
+ReiserFS: sdb1: Using r5 hash to sort names
+VFS: Mounted root (reiserfs filesystem) readonly.
+Freeing unused kernel memory: 200k freed
+ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 9
+PCI: setting IRQ 9 as level-triggered
+ACPI: PCI Interrupt 0000:00:0d.0[A] -> Link [LNKD] -> GSI 9 (level, low) -> IRQ 9
+microcode: CPU0 updated from revision 0x0 to 0x1c, date = 02152001 
+Real Time Clock Driver v1.12ac
+hdc: CHECK for good STATUS
+Adding 779144k swap on /dev/hda2.  Priority:-1 extents:1 across:779144k
+ReiserFS: sdb1: Removing [88187 88194 0x0 SD]..done
+ReiserFS: sdb1: Removing [66538 88187 0x0 SD]..done
+ReiserFS: sdb1: Removing [215484 10345 0x0 SD]..done
+ReiserFS: sdb1: There were 3 uncompleted unlinks/truncates. Completed
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS on sdb4, internal journal
+EXT3-fs: mounted filesystem with ordered data mode.
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS on hda3, internal journal
+EXT3-fs: mounted filesystem with ordered data mode.
+e100: eth0: e100_watchdog: link up, 100Mbps, full-duplex
+NET: Registered protocol family 10
+lo: Disabled Privacy Extensions
+IPv6 over IPv4 tunneling driver
+Linux video capture interface: v1.00
+bttv: driver version 0.9.16 loaded
+bttv: using 32 buffers with 2080k (520 pages) each for capture
+bttv: Host bridge needs ETBF enabled.
+bttv: Bt8xx card found (0).
+ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 5
+PCI: setting IRQ 5 as level-triggered
+ACPI: PCI Interrupt 0000:00:0a.0[A] -> Link [LNKC] -> GSI 5 (level, low) -> IRQ 5
+bttv0: Bt878 (rev 2) at 0000:00:0a.0, irq: 5, latency: 32, mmio: 0xd7000000
+bttv0: detected: I-O Data Co. GV-BCTV3/PCI [card=49], PCI subsystem ID is 10fc:4020
+bttv0: using: IODATA GV-BCTV3/PCI [card=49,insmod option]
+bttv0: enabling ETBF (430FX/VP3 compatibilty)
+bttv0: gpio: en=00000000, out=00000000 in=00fef3f1 [init]
+tuner 0-0060: chip found @ 0xc0 (bt878 #0 [sw])
+bttv0: using tuner=15
+tuner 0-0060: type set to 15 (Alps TSCH6)
+bttv0: i2c: checking for TDA9875 @ 0xb0... not found
+bttv0: i2c: checking for TDA7432 @ 0x8a... not found
+bttv0: i2c: checking for TDA9887 @ 0x86... not found
+bttv0: registered device video0
+bttv0: registered device vbi0
+bttv0: PLL: 28636363 => 35468950 .. ok
+eth0: no IPv6 routers present
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+vmmon: module license 'unspecified' taints kernel.
+/dev/vmmon[1685]: Module vmmon: registered with major=10 minor=165
+/dev/vmmon[1685]: Module vmmon: initialized
+parport: PnPBIOS parport detected.
+parport0: PC-style at 0x378 (0x778), irq 7, dma 3 [PCSPP,TRISTATE,COMPAT,EPP,ECP,DMA]
+/dev/vmnet: open called by PID 1747 (vmnet-bridge)
+/dev/vmnet: hub 0 does not exist, allocating memory.
+/dev/vmnet: port on hub 0 successfully opened
+bridge-eth0: enabling the bridge
+bridge-eth0: up
+bridge-eth0: already up
+bridge-eth0: attached
+/dev/vmnet: open called by PID 1759 (vmnet-natd)
+/dev/vmnet: hub 8 does not exist, allocating memory.
+/dev/vmnet: port on hub 8 successfully opened
+Linux agpgart interface v0.101 (c) Dave Jones
+agpgart: Detected an Intel 440BX Chipset.
+agpgart: AGP aperture is 64M @ 0xe4000000
+usbcore: registered new driver usbfs
+usbcore: registered new driver hub
+USB Universal Host Controller Interface driver v3.0
+ACPI: PCI Interrupt 0000:00:04.2[D] -> Link [LNKD] -> GSI 9 (level, low) -> IRQ 9
+uhci_hcd 0000:00:04.2: UHCI Host Controller
+uhci_hcd 0000:00:04.2: new USB bus registered, assigned bus number 1
+uhci_hcd 0000:00:04.2: irq 9, io base 0x0000d400
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+usb 1-2: new full speed USB device using uhci_hcd and address 2
+usb 1-2: configuration #1 chosen from 1 choice
+hub 1-2:1.0: USB hub found
+hub 1-2:1.0: 4 ports detected
+piix4_smbus 0000:00:04.3: Found 0000:00:04.3 device
+ohci_hcd: 2005 April 22 USB 1.1 'Open' Host Controller (OHCI) Driver (PCI)
+ACPI: PCI Interrupt 0000:00:09.0[A] -> Link [LNKD] -> GSI 9 (level, low) -> IRQ 9
+ohci_hcd 0000:00:09.0: OHCI Host Controller
+ohci_hcd 0000:00:09.0: new USB bus registered, assigned bus number 2
+ohci_hcd 0000:00:09.0: irq 9, io mem 0xd3800000
+usb usb2: configuration #1 chosen from 1 choice
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 3 ports detected
+ACPI: PCI Interrupt 0000:00:09.1[B] -> Link [LNKA] -> GSI 11 (level, low) -> IRQ 11
+ohci_hcd 0000:00:09.1: OHCI Host Controller
+ohci_hcd 0000:00:09.1: new USB bus registered, assigned bus number 3
+ohci_hcd 0000:00:09.1: irq 11, io mem 0xd3000000
+usb usb3: configuration #1 chosen from 1 choice
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 2 ports detected
+ACPI: PCI Interrupt 0000:00:09.2[C] -> Link [LNKB] -> GSI 10 (level, low) -> IRQ 10
+ehci_hcd 0000:00:09.2: EHCI Host Controller
+ehci_hcd 0000:00:09.2: new USB bus registered, assigned bus number 4
+ehci_hcd 0000:00:09.2: irq 10, io mem 0xd2800000
+ehci_hcd 0000:00:09.2: USB 2.0 started, EHCI 0.95, driver 10 Dec 2004
+usb usb4: configuration #1 chosen from 1 choice
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 5 ports detected
+ACPI: PCI Interrupt 0000:01:00.0[A] -> Link [LNKA] -> GSI 11 (level, low) -> IRQ 11
+NVRM: loading NVIDIA Linux x86 Kernel Module  1.0-8774  Tue Aug  1 20:54:08 PDT 2006
+/dev/vmnet: open called by PID 3614 (vmnet-netifup)
+/dev/vmnet: hub 1 does not exist, allocating memory.
+/dev/vmnet: port on hub 1 successfully opened
+/dev/vmnet: open called by PID 3615 (vmnet-netifup)
+/dev/vmnet: port on hub 8 successfully opened
+/dev/vmnet: open called by PID 3648 (vmnet-dhcpd)
+/dev/vmnet: port on hub 1 successfully opened
+/dev/vmnet: open called by PID 3699 (vmnet-dhcpd)
+/dev/vmnet: port on hub 8 successfully opened
+input: PC Speaker as /class/input/input2
+vmnet1: no IPv6 routers present
+vmnet8: no IPv6 routers present
+agpgart: Found an AGP 1.0 compliant device at 0000:00:00.0.
+agpgart: Putting AGP V2 device at 0000:00:00.0 into 2x mode
+agpgart: Putting AGP V2 device at 0000:01:00.0 into 2x mode
+agpgart: Found an AGP 1.0 compliant device at 0000:00:00.0.
+agpgart: Putting AGP V2 device at 0000:00:00.0 into 2x mode
+agpgart: Putting AGP V2 device at 0000:01:00.0 into 2x mode
+agpgart: Found an AGP 1.0 compliant device at 0000:00:00.0.
+agpgart: Putting AGP V2 device at 0000:00:00.0 into 2x mode
+agpgart: Putting AGP V2 device at 0000:01:00.0 into 2x mode
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <c01a2bb7> loadavg_read_proc+0xc7/0x100  <c015879b> __handle_mm_fault+0x1db/0x250
+ <c0119d32> do_page_fault+0x1b2/0x640  <c0119b80> do_page_fault+0x0/0x640
+ <c0103ba7> error_code+0x4f/0x54 
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119011 inactive:117962 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407384kB inactive:404316kB present:901120kB pages_scanned:898454 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4206, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+Out of Memory: Kill process 6235 (bash) score 646413 and children.
+Out of memory: Killed process 6236 (GISfx).
+oom-killer: gfp_mask=0x200d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c011d5a8> __wake_up+0x38/0x50  <c015ebd9> read_swap_cache_async+0x59/0x90
+ <c0157e91> swapin_readahead+0x41/0x70  <c015802d> do_swap_page+0x16d/0x2b0
+ <c0158778> __handle_mm_fault+0x1b8/0x250  <c02e2701> sock_aio_write+0x81/0xa0
+ <c0119d32> do_page_fault+0x1b2/0x640  <c0119b80> do_page_fault+0x0/0x640
+ <c0103ba7> error_code+0x4f/0x54  <c0122f52> do_syslog+0x2b2/0x3d0
+ <c0136e00> autoremove_wake_function+0x0/0x50  <c0136e00> autoremove_wake_function+0x0/0x50
+ <c01a23f0> kmsg_read+0x0/0x60  <c0169b94> vfs_read+0x94/0x170
+ <c0169f51> sys_read+0x41/0x70  <c01030a7> syscall_call+0x7/0xb
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119025 inactive:117948 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407440kB inactive:404260kB present:901120kB pages_scanned:898568 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <c01580a4> do_swap_page+0x1e4/0x2b0  <c015879b> __handle_mm_fault+0x1db/0x250
+ <c0344f1c> unix_ioctl+0xbc/0xe0  <c0119d32> do_page_fault+0x1b2/0x640
+ <c0119b80> do_page_fault+0x0/0x640  <c0103ba7> error_code+0x4f/0x54
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119025 inactive:117948 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407440kB inactive:404260kB present:901120kB pages_scanned:898568 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <c01056ee> do_IRQ+0x1e/0x30  <c0103a72> common_interrupt+0x1a/0x20
+ <c015879b> __handle_mm_fault+0x1db/0x250  <c0119d32> do_page_fault+0x1b2/0x640
+ <c0119b80> do_page_fault+0x0/0x640  <c0103ba7> error_code+0x4f/0x54
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119025 inactive:117948 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407440kB inactive:404260kB present:901120kB pages_scanned:898568 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c011ba80> try_to_wake_up+0x290/0x320
+ <c015835a> do_no_page+0x6a/0x250  <c015879b> __handle_mm_fault+0x1db/0x250
+ <c0119d32> do_page_fault+0x1b2/0x640  <c01056ee> do_IRQ+0x1e/0x30
+ <c0119b80> do_page_fault+0x0/0x640  <c0103ba7> error_code+0x4f/0x54
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119025 inactive:117948 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407440kB inactive:404260kB present:901120kB pages_scanned:898568 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0151255> __do_page_cache_readahead+0xf5/0x160  <c014b076> filemap_nopage+0x2c6/0x380
+ <c015835a> do_no_page+0x6a/0x250  <c0102e86> do_signal+0x96/0x170
+ <c015879b> __handle_mm_fault+0x1db/0x250  <c0119d32> do_page_fault+0x1b2/0x640
+ <c0102594> sys_sigreturn+0xb4/0xd0  <c0119b80> do_page_fault+0x0/0x640
+ <c0103ba7> error_code+0x4f/0x54 
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119025 inactive:117948 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407440kB inactive:404260kB present:901120kB pages_scanned:898568 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <c01580a4> do_swap_page+0x1e4/0x2b0  <c015879b> __handle_mm_fault+0x1db/0x250
+ <c0344f1c> unix_ioctl+0xbc/0xe0  <c0119d32> do_page_fault+0x1b2/0x640
+ <c0119b80> do_page_fault+0x0/0x640  <c0103ba7> error_code+0x4f/0x54
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119039 inactive:117934 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407496kB inactive:404204kB present:901120kB pages_scanned:898682 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <f90775cc> _nv001806rm+0x9c/0xa8 [nvidia]  <c015879b> __handle_mm_fault+0x1db/0x250
+ <c0119d32> do_page_fault+0x1b2/0x640  <c0119b80> do_page_fault+0x0/0x640
+ <c0103ba7> error_code+0x4f/0x54 
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119039 inactive:117934 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407496kB inactive:404204kB present:901120kB pages_scanned:898682 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x200d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c011d5a8> __wake_up+0x38/0x50  <c015ebd9> read_swap_cache_async+0x59/0x90
+ <c0157e91> swapin_readahead+0x41/0x70  <c015802d> do_swap_page+0x16d/0x2b0
+ <c0158778> __handle_mm_fault+0x1b8/0x250  <c02e2701> sock_aio_write+0x81/0xa0
+ <c0119d32> do_page_fault+0x1b2/0x640  <c0119b80> do_page_fault+0x0/0x640
+ <c0103ba7> error_code+0x4f/0x54  <c0122f52> do_syslog+0x2b2/0x3d0
+ <c0136e00> autoremove_wake_function+0x0/0x50  <c0136e00> autoremove_wake_function+0x0/0x50
+ <c01a23f0> kmsg_read+0x0/0x60  <c0169b94> vfs_read+0x94/0x170
+ <c0169f51> sys_read+0x41/0x70  <c01030a7> syscall_call+0x7/0xb
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119053 inactive:117920 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407552kB inactive:404148kB present:901120kB pages_scanned:898796 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+oom-killer: gfp_mask=0x201d2, order=0
+ <c014d820> out_of_memory+0x90/0xc0  <c014eb92> __alloc_pages+0x2e2/0x310
+ <c0136e50> wake_bit_function+0x0/0x60  <c0151255> __do_page_cache_readahead+0xf5/0x160
+ <c014b076> filemap_nopage+0x2c6/0x380  <c015835a> do_no_page+0x6a/0x250
+ <c015879b> __handle_mm_fault+0x1db/0x250  <c0253547> tty_ioctl+0x127/0x500
+ <c0119d32> do_page_fault+0x1b2/0x640  <c017c212> sys_fcntl64+0x52/0x90
+ <c0119b80> do_page_fault+0x0/0x640  <c0103ba7> error_code+0x4f/0x54
+Mem-info:
+DMA per-cpu:
+cpu 0 hot: high 0, batch 1 used:0
+cpu 0 cold: high 0, batch 1 used:0
+DMA32 per-cpu: empty
+Normal per-cpu:
+cpu 0 hot: high 186, batch 31 used:170
+cpu 0 cold: high 62, batch 15 used:14
+HighMem per-cpu:
+cpu 0 hot: high 42, batch 7 used:39
+cpu 0 cold: high 14, batch 3 used:8
+Free pages:       12024kB (124kB HighMem)
+Active:119053 inactive:117920 dirty:0 writeback:0 unstable:0 free:3006 slab:2288 mapped:236480 pagetables:759
+DMA free:4096kB min:68kB low:84kB high:100kB active:4456kB inactive:3992kB present:16384kB pages_scanned:8754 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 880 1007
+DMA32 free:0kB min:0kB low:0kB high:0kB active:0kB inactive:0kB present:0kB pages_scanned:0 all_unreclaimable? no
+lowmem_reserve[]: 0 0 880 1007
+Normal free:7804kB min:3756kB low:4692kB high:5632kB active:407552kB inactive:404148kB present:901120kB pages_scanned:898796 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 1023
+HighMem free:124kB min:128kB low:264kB high:400kB active:64204kB inactive:63540kB present:130992kB pages_scanned:166026 all_unreclaimable? yes
+lowmem_reserve[]: 0 0 0 0
+DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 1*4096kB = 4096kB
+DMA32: empty
+Normal: 1*4kB 7*8kB 6*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 1*4096kB = 7804kB
+HighMem: 1*4kB 1*8kB 1*16kB 1*32kB 1*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 124kB
+Swap cache: add 223491, delete 223491, find 2748/4207, race 0+0
+Free swap  = 0kB
+Total swap = 779144kB
+Free swap:            0kB
+262124 pages of RAM
+32748 pages of HIGHMEM
+3263 reserved pages
+13217 pages shared
+0 pages swap cached
+0 pages dirty
+0 pages writeback
+236480 pages mapped
+2288 pages slab
+759 pages pagetables
+Out of Memory: Kill process 6235 (bash) score 216177 and children.
+Out of memory: Killed process 6237 (GISfx).
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0
+FAILED
+  status = 1, message = 00, host = 0, driver = 08
+  <6>sd: Current: sense key=0x5
+    ASC=0x20 ASCQ=0x0

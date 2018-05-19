@@ -1,0 +1,8 @@
+./GISfx /mnt/sda1/tmp/GIS/bndnet.e00 \
+/mnt/sda1/tmp/GIS/hydronet.e00 \
+/mnt/sda1/tmp/GIS/transnet.e00 \
+/tmp/GM/13112/13112
+
+
+
+

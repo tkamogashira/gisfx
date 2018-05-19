@@ -1,0 +1,88 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(README)
+AC_CONFIG_AUX_DIR(config)
+
+dnl Detect the canonical host and target build environment
+dnl AC_CANONICAL_BUILD
+dnl AC_CANONICAL_HOST
+dnl AC_CANONICAL_TARGET
+
+dnl Setup for automake
+AM_INIT_AUTOMAKE(GISfx, 1.0.2)
+
+dnl Check for tools
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_RANLIB
+
+dnl CFLAGS
+
+cv_release="no"
+AC_MSG_CHECKING(if --enable-release option specified)
+AC_ARG_ENABLE(release,
+  [  --enable-release        Build a release version. (default=no)],
+  [cv_release="yes"], [cv_release="no"])
+if test "x$cv_release" = "xno"; then
+  AC_DEFINE(DEBUG,1,Define to 1 if you are in debug mode)
+  CFLAGS="$CFLAGS -Wall -g -O0"
+fi
+if test "x$cv_release" = "xyes"; then
+  AC_DEFINE(NDEBUG,1,Define to 1 if you are NOT in debug mode)
+  CFLAGS="$CFLAGS -O3"
+fi
+AC_MSG_RESULT($cv_release)
+
+cv_sse="no"
+AC_MSG_CHECKING(if --enable-sse option specified)
+AC_ARG_ENABLE(sse,
+  [  --enable-sse            Use SSE. (default=no)],
+  [cv_sse="yes"], [cv_sse="no"])
+if test "x$cv_debug" = "xyes"; then
+  AC_DEFINE(NDEBUG,1,Define to 1 if you are NOT in debug mode)
+  CFLAGS="$CFLAGS -march=pentium3 -mfpmath=sse -msse -mmmx"
+fi
+AC_MSG_RESULT($cv_sse)
+
+CXXFLAGS="$CFLAGS"
+
+AC_DEFINE(HAVE_VSNPRINTF,1)
+AC_DEFINE(HAVE_SNPRINTF,1)
+AC_DEFINE(HAVE_STRNCASECMP,1)
+
+AC_CHECK_HEADERS([errno.h dirent.h])
+
+dnl Check for SDL
+SDL_VERSION=1.1.0
+AM_PATH_SDL($SDL_VERSION,:,
+	AC_MSG_ERROR([*** libSDL version $SDL_VERSION not found!])
+)
+
+dnl Check for SDL_image library
+AC_CHECK_LIB(SDL_image, IMG_Load,,
+	AC_MSG_ERROR([*** Unable to find SDL_image libary with PNG support!])
+)
+
+dnl Check for SDL_image library
+AC_CHECK_LIB(SDL_ttf, TTF_OpenFont,,
+	AC_MSG_ERROR([*** Unable to find SDL_ttf library!])
+)
+
+dnl Check for SDL
+XML2_VERSION=2.1.0
+AM_PATH_XML2($XML2_VERSION,:,
+	AC_MSG_ERROR([*** libxml2 version $XML2_VERSION not found!])
+)
+
+MDL_HAVE_OPENGL
+
+CFLAGS="$CFLAGS $GL_CFLAGS $SDL_CFLAGS $SDL_image_CFLAGS $SDL_ttf_CFLAGS $XML_CPPFLAGS"
+CXXFLAGS="$CFLAGS"
+LDFLAGS="$GL_LIBS $SDL_LIBS $SDL_image_LIBS $SDL_ttf_LIBS $XML_LIBS"
+
+# Finally create all the generated files
+AC_OUTPUT([
+libarc/Makefile
+libnkf/Makefile
+src/Makefile
+Makefile
+])

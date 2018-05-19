@@ -1,0 +1,2 @@
+SUBDIRS = libnkf libarc src
+

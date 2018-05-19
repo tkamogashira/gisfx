@@ -1,0 +1,27 @@
+#define GLfunction2(_functionName_, _postfix, _a1, _a2) \
+void XGL::_functionName_(xmlNodePtr node) \
+{ \
+  double _a1, _a2; \
+  sscanf((char *)getFirstContent(node), "%lf %lf", &_a1, &_a2); \
+  gl ## _functionName_ ## _postfix(_a1, _a2); \
+}
+
+#define GLfunction3(_functionName_, _postfix, _a1, _a2, _a3) \
+void XGL::_functionName_(xmlNodePtr node) \
+{ \
+  double _a1, _a2, _a3; \
+  sscanf((char *)getFirstContent(node), "%lf %lf %lf", &_a1, &_a2, &_a3); \
+  gl ## _functionName_ ## _postfix(_a1, _a2, _a3); \
+}
+
+#define GLfunction4(_functionName_, _postfix, _a1, _a2, _a3, _a4) \
+void XGL::_functionName_(xmlNodePtr node) \
+{ \
+  double _a1, _a2, _a3, _a4; \
+  sscanf((char *)getFirstContent(node), "%lf %lf %lf %lf", &_a1, &_a2, &_a3, &_a4); \
+  gl ## _functionName_ ## _postfix(_a1, _a2, _a3, _a4); \
+}
+
+GLfunction3(Color3, d, red, green, blue);
+GLfunction4(Color4, d, red, green, blue, alpha);
+GLfunction2(Vertex2, d, x, y);
